@@ -1,8 +1,17 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome USER_NAME,
+# Welcome to my first Milestone project.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+Whilst the Code Institute training videos recommend using GitPod to write the code, I actually taught myself to use Visual Studio Code.
+
+This is because I realised quite early on, that the lecturers weren't actually using GitPod a lot of the time and, there were differences in the code editor being used and the one actually being talked about.
+
+I decided that I would learn to use VS Code so that I wouldn't have to change.
+
+I still used GitHub in the same way and used the Code Institute student template when creating my GitHub repository.
+
+
+
 
 ## Gitpod Reminders
 
@@ -22,12 +31,6 @@ Another blue button should appear to click: _Open Browser_.
 
 In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI you can use:
-
-`heroku login -i`
-
-If you have Multi-Factor Authentication (MFA) enabled then use the API key that was generated for you at [Heroku](https://dashboard.heroku.com/account) as your password.
-This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
 
 ## Updates Since The Instructional Video
 
