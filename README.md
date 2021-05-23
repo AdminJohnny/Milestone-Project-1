@@ -10,7 +10,10 @@ I decided that I would learn to use VS Code so that I wouldn't have to change.
 
 I still used GitHub in the same way and used the Code Institute student template when creating my GitHub repository.
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1a377065487901b581496fcd3cde521d1137f66b
 
 
 ## Gitpod Reminders
