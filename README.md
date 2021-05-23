@@ -1,8 +1,16 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome USER_NAME,
+# Welcome to my first Milestone project.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+Whilst the Code Institute training videos recommend using GitPod to write the code, I actually taught myself to use Visual Studio Code.
+
+This is because I realised quite early on, that the lecturers weren't actually using GitPod a lot of the time and, there were differences in the code editor being used and the one actually being talked about.
+
+I decided that I would learn to use VS Code so that I wouldn't have to change.
+
+I still used GitHub in the same way and used the Code Institute student template when creating my GitHub repository.
+
+
 
 ## Gitpod Reminders
 
