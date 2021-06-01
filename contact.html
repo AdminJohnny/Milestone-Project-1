@@ -15,7 +15,7 @@
 
 <body>
     <div class="opaque-overlay"></div>
-    <header class="text-center page-header header-home" id="home">
+    <header class="text-center page-header header-contact" id="home">
 		<div class="vertical-center">
 		<h1>Specialised Transport Training</h1>
 		<p>Large vehicle driver training</p>
@@ -30,34 +30,35 @@
 	</nav>
                 
         
-    <section>
-        <div>
-            <div class="welcome">
-                <h5 class="uppercase">Welcome to our website</h5>
-                <p class="inline-block">
-                    We are Specialised Transport Training (S.T.T).
-                </p>
-                
-            </div>
-            
-        </div>
-    </section>
-    
-    <section>
-        <div>
-            <div class="provide">
-                <h5 class="uppercase">What we can provide</h5>
-                <p class="inline-block">
-                    We are Specialised Transport Training (S.T.T).
-                </p>
-                
-            </div>
-            
-        </div>
-    </section>
-    
+    <section class="container-fluid">
+        <div class="row contact-form">
+            <div class="col">
+                <h3 class="contact-heading text-center">Want to ask us something?</h3>
+                <h5 class="text-center">Fill in the form and we'll get right back to you!</h5>
 
+                <div class="center-form">
+                    <form action="">
+                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email"
+                            required />
+                        <textarea rows="5" name="askus" id="askus" class="form-control"
+                            placeholder="Your message" required></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="submit" class="btn btn-secondary">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
     
+<!-- Map -->
+    <section class="map-wrapper">
+        <iframe class="map" src="https://bit.ly/3fRdoUf" allowfullscreen="" loading="lazy"></iframe>
+    </section>
     
      <footer class="container-fluid">
           

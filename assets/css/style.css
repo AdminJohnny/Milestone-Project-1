@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Roboto&display=swap');
+
+/* -------------------------------------------Body */
+
+body {
+	font-family: 'Roboto', Arial, sans-serif;
+	margin: 0;
+    color: #841617;
+	background-color: #f3e2c1;
+}
+
+
+
+h1 {
+    font-size: 4rem;
+	margin: 0;
+}
+
+
+/* -------------------------------------------Header */
+
+header {
+    color: #f3e2c1;
+    background-color: #841617;
+    height: 50vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header-home {
+    background: url('../img/64302.jpg') center 65% / cover no-repeat;
+}
+
+.header-about {
+    background: url('../img/91205.jpg') center 60% / cover no-repeat;
+}
+
+.header-meet {
+    background: url('../img/57531.jpg') center 62% / cover no-repeat;
+}
+
+.header-contact {
+    background: url('../img/58803.jpg') center 57% / cover no-repeat;
+}
+
+header p {
+    font-size: 2rem;
+}
+
+.vertical-center {
+    position: relative;
+    top: 35%;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* -------------------------------------------Navbar */
+
+nav {
+    font-size: 23px;
+    font-weight: 500;
+    padding: 1rem;
+
+}
+
+nav > a {
+    font-family: Crimson-text, serif;
+	text-decoration: none;
+	color: #f3e2c1;
+	margin: 1rem;
+}
+
+nav > a:hover {
+	color: #fe0040;
+    text-decoration: none;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.crimson-background {
+    background-color: #841617;
+}
+
+
+
+/* -------------------------------------------Footer */
+
+
+footer {
+    background-color: #841617;
+    color: #f3e2c1;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+}
+
+.social-links {
+    padding: 20px, 20px;
+}
+
+.social-links li a i {
+    font-size: 1.5em;
+    width: 36px;
+    height: 36px;
+    padding: 15px 0;
+    border-radius: 20%;
+    line-height: 5px;
+    text-align: center;
+    color: #f3e2c1;
+    background: #841617;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #fe0040;
+}
+
+
+
+/* -------------------------------------------Special paddings/margins/text */
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: Crimson-text, serif;
+}
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------Meet the Team */
+
+
+.col-12 {
+    padding-left: 0;
+    padding-right: 0;
+    min-width: 75%;
+}
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+.meet .page-header {
+    margin-bottom: 25px;
+}
+
+.meet-container {
+    text-align: center;
+}
+
+.media {
+    margin-top: 15px;
+}
+
+.media img {
+    margin-top: 15px;
+}
+
+.about {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.about p {
+    font-size: 18px
+}
+
+
+/* -------------------------------------------Contact Us */
+
+.contact-heading {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 75%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #f3e2c1;
+    background-color: #841617;
+}
+
+button[type="submit"]:hover {
+    background: #fe0040;
+}
+
+
+
+/* -------------------------------------------Map */
+.map-wrapper {
+    margin-top: 25px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.map {
+    height: 300px;
+    width: 100%;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
