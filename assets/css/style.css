@@ -30,19 +30,19 @@ header {
 }
 
 .header-home {
-    background: url('../img/64302.jpg') center 65% / cover no-repeat;
+    background: url('../images/64302.jpg') center 65% / cover no-repeat;
 }
 
 .header-about {
-    background: url('../img/91205.jpg') center 60% / cover no-repeat;
+    background: url('../images/91205.jpg') center 60% / cover no-repeat;
 }
 
 .header-meet {
-    background: url('../img/57531.jpg') center 62% / cover no-repeat;
+    background: url('../images/57531.jpg') center 62% / cover no-repeat;
 }
 
 .header-contact {
-    background: url('../img/58803.jpg') center 57% / cover no-repeat;
+    background: url('../images/58803.jpg') center 57% / cover no-repeat;
 }
 
 header p {
@@ -185,7 +185,7 @@ h4 {
 }
 
 .about {
-    text-align: left;
+    text-align: justify;
     margin-bottom: 40px;
 }
 
