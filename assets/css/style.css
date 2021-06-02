@@ -3,23 +3,24 @@
 /* -------------------------------------------Body */
 
 body {
-	font-family: 'Roboto', Arial, sans-serif;
-	margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
     color: #841617;
-	background-color: #f3e2c1;
+    background-color: #f3e2c1;
 }
 
 
 
 h1 {
     font-size: 4rem;
-	margin: 0;
+    margin: 0;
 }
 
 
 /* -------------------------------------------Header */
 
 header {
+    margin-top: 60px;
     color: #f3e2c1;
     background-color: #841617;
     height: 50vh;
@@ -29,12 +30,22 @@ header {
     background-size: cover;
 }
 
+.opaque-overlay {
+    margin-top: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 .header-home {
     background: url('../images/64302.jpg') center 65% / cover no-repeat;
 }
 
 .header-about {
-    background: url('../images/91205.jpg') center 60% / cover no-repeat;
+    background: url('../images/91205.jpg') center 100% / cover no-repeat;
 }
 
 .header-meet {
@@ -54,34 +65,29 @@ header p {
     top: 35%;
 }
 
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 50%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
 
 
 /* -------------------------------------------Navbar */
 
 nav {
+    width: 100%;
     font-size: 23px;
     font-weight: 500;
     padding: 1rem;
+    position: absolute;
+    top: 0;
 
 }
 
-nav > a {
+nav>a {
     font-family: Crimson-text, serif;
-	text-decoration: none;
-	color: #f3e2c1;
-	margin: 1rem;
+    text-decoration: none;
+    color: #f3e2c1;
+    margin: 1rem;
 }
 
-nav > a:hover {
-	color: #fe0040;
+nav>a:hover {
+    color: #fe0040;
     text-decoration: none;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -104,6 +110,7 @@ footer {
     padding: 1em;
     text-align: center;
     width: 100%;
+    bottom: 0;
 }
 
 .social-links {
@@ -141,7 +148,17 @@ h4 {
     font-family: Crimson-text, serif;
 }
 
+/* -------------------------------------------Gallery */
 
+.gallery-title {
+    margin-top: 40px;
+}
+
+.carousel,
+.slide {
+    max-width: 80%;
+    margin: 40px auto;
+}
 
 /* -------------------------------------------Meet the Team */
 
@@ -238,24 +255,6 @@ button[type="submit"]:hover {
     width: 100%;
     border: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
