@@ -218,13 +218,25 @@ button[type="submit"]:hover {
     background: #fe0040;
 }
 
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em
+}
+
+#center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
 
 
 /* -------------------------------------------Map */
 .map-wrapper {
     margin-top: 25px;
-    margin-bottom: 0;
-    padding: 0;
+    margin-bottom: -7px;
 }
 
 .map {
