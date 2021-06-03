@@ -145,16 +145,8 @@ h4 {
     font-weight: bold;
 }
 
-/* -------------------------------------------Gallery */
-
-.gallery-title {
-    margin-top: 40px;
-}
-
-.carousel,
-.slide {
-    max-width: 80%;
-    margin: 40px auto;
+.welcome {
+    margin-bottom: 25px;
 }
 
 /* -------------------------------------------Meet the Team */
@@ -167,10 +159,6 @@ h4 {
 
 .page-header h2 {
     margin-top: 0;
-}
-
-.meet .page-header {
-    margin-bottom: 25px;
 }
 
 .meet-container {
@@ -196,6 +184,17 @@ h4 {
     font-size: 18px
 }
 
+/* -------------------------------------------Gallery */
+
+.gallery-title {
+    margin-top: 40px;
+}
+
+.carousel,
+.slide {
+    max-width: 80%;
+    margin: 40px auto;
+}
 
 /* -------------------------------------------Contact Us */
 
