@@ -44,10 +44,6 @@ header {
     background: url('../images/64302.jpg') center 65% / cover no-repeat;
 }
 
-.header-about {
-    background: url('../images/91205.jpg') center 60% / cover no-repeat;
-}
-
 .header-meet {
     background: url('../images/57531.jpg') center 62% / cover no-repeat;
 }
@@ -146,6 +142,7 @@ h2,
 h3,
 h4 {
     font-family: Crimson-text, serif;
+    font-weight: bold;
 }
 
 /* -------------------------------------------Gallery */
@@ -161,12 +158,6 @@ h4 {
 }
 
 /* -------------------------------------------Meet the Team */
-
-.col-12 {
-    padding-left: 0;
-    padding-right: 0;
-    min-width: 75%;
-}
 
 .page-header {
     margin-bottom: 0;
@@ -195,13 +186,8 @@ h4 {
     margin-right: 15px;
 }
 
-.team-center {
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .about {
-    text-align: justify;
+    text-align: left;
     margin-bottom: 40px;
     margin-left: 40px;
 }
@@ -212,8 +198,6 @@ h4 {
 
 
 /* -------------------------------------------Contact Us */
-
-.contact {}
 
 .contact-heading {
     margin-top: 25px;
@@ -257,6 +241,3 @@ button[type="submit"]:hover {
     width: 100%;
     border: none;
 }
-
-
-
