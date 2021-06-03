@@ -45,7 +45,7 @@ header {
 }
 
 .header-about {
-    background: url('../images/91205.jpg') center 100% / cover no-repeat;
+    background: url('../images/91205.jpg') center 60% / cover no-repeat;
 }
 
 .header-meet {
@@ -212,6 +212,8 @@ h4 {
 
 
 /* -------------------------------------------Contact Us */
+
+.contact {}
 
 .contact-heading {
     margin-top: 25px;
