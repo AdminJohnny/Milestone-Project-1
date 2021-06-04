@@ -104,8 +104,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
         1. The navigation bar clearly highlights the "Contact Us" Page.
         2. Here they can fill out the form on the page or are given the phone number and address of the company.
-        3. The footer contains links to the organisations SOcial Media platform pages.
-        4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
+        3. There is a map on the "Contact Us" Page so that the offices can be easily found for first time visitors.
+        4. The footer contains links to the organisations Social Media platform pages.
+        5. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
 
 
     3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
@@ -187,6 +188,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   The code for the image carousel was taken from Bootstrap carousel documentation and modified by the developer to add the images and 'alt' values.
 
+-   [Google Maps](https://www.google.com/maps/): For the site map used on the 'Contact Us' page.
 
 ### Content
 
